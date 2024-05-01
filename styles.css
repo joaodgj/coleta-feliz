@@ -34,8 +34,7 @@ a
 
 .logo
 {
-  padding-right: 800px;
-  float: left;
+  padding-right: 400px;
   margin: 2px;
   height: auto;
 }
@@ -56,6 +55,7 @@ main
   height: 800px;
   border-radius: 5%;
 }
+
 .texto-principal{
   display: flex;
   flex-direction: column;
@@ -73,6 +73,7 @@ main
   background-color: rgb(61, 255, 77);
   color: rgb(0, 0, 0);
 }
+
 .lixos
 {
   word-spacing: 50px;
@@ -81,6 +82,7 @@ main
   padding-bottom: 50px;
   display: block;
 }
+
 .Nlixo
 {
   word-spacing: 310px;
@@ -101,8 +103,6 @@ footer{
   -webkit-text-stroke-color:#297a12;
 }
 
-
-footer
-{
-  background-color: #297a12;
+footer{
+  background-color:#297a12;
 }
