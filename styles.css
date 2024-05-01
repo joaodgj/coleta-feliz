@@ -4,13 +4,15 @@
   margin: 0;
   padding: 0;
 }
-body{
+body
+{
   background-image:url(img/Fundo.png);
   background-repeat: repeat;
   background-size: 100%;
 }
 
-header{
+header
+{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,24 +20,28 @@ header{
   font-family: "Archivo Black", sans-serif;
 }
 
-.li {
+.li 
+{
   display: inline;
   margin-right: 10px;
 }
 
-a {
+a 
+{
   text-decoration: none;
   color: white;
 }
 
-.logo{
+.logo
+{
   padding-right: 850px;
   float: left;
   margin: 2px;
   height: auto;
 }
 
-main{
+main
+{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,13 +55,16 @@ main{
   width: 1500px;
   height: 800px;
   border-radius: 5%;
+
+.texto-principal{
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-.mapa{
+.mapa
+{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,7 +75,18 @@ main{
 }
 .lixos
 {
+  padding-top: 30px;
+  padding-bottom: 50px;
+display: block;
+}
+.Nlixo
+{
+  word-spacing: 150px;
+  padding-top: 30px;
+  padding-left: 110px;
   text-align: center;
+  display: inline;
+  justify-content: center;
   
 }
 
@@ -82,3 +102,8 @@ footer{
   -webkit-text-stroke-color:#297a12;
 }
 
+
+footer
+{
+  background-color: #297a12;
+}
