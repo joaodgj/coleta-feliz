@@ -55,6 +55,7 @@ main
   width: 1500px;
   height: 800px;
   border-radius: 5%;
+}
 
 .texto-principal{
   display: flex;
@@ -103,7 +104,6 @@ footer{
 }
 
 
-footer
-{
-  background-color: #297a12;
+footer{
+  background-color:#297a12;
 }
