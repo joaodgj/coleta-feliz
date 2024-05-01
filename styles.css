@@ -29,6 +29,8 @@ a {
 }
 
 .logo{
+  padding-right: 850px;
+  float: left;
   margin: 2px;
   height: auto;
 }
@@ -62,6 +64,11 @@ main{
   background-color: rgb(61, 255, 77);
   color: rgb(0, 0, 0);
 }
+.lixos
+{
+  text-align: center;
+  
+}
 
 footer{
   background-color: #297a12;
@@ -74,3 +81,4 @@ footer{
   -webkit-text-stroke: 4px;
   -webkit-text-stroke-color:#297a12;
 }
+
