@@ -106,3 +106,9 @@ footer{
 footer{
   background-color:#297a12;
 }
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

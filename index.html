@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">    
-    <title>Coleta Feliz</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilo opcional para o mapa */
+        #map {
+            height: 400px; /* Altura do mapa */
+            width: 100%; /* Largura do mapa */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -31,9 +37,42 @@
                 industry. Lorem Ipsum has been the industry's standard dummy text
                  ever since the 1500s,</p>
                  <br><br><br>
-            <div class="mapa">
-                <p>Mapa aqui</p>
-            </div>
+            <h1>Meu Mapa do Google</h1>
+            <!-- O div abaixo é onde o mapa será exibido -->
+            <div id="map"></div>
+        
+            <!-- Importa a API do Google Maps -->
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByZZT9xzp3MYuk98n2BSdGnJ-4XDZtQFk"></script>
+        
+            <script>
+                // Função para inicializar o mapa
+                function initMap() {
+                    // Coordenadas de localização inicial
+                    var myLatLng = {lat: -22.925745157274466, lng: -47.0373078956728};
+        
+                    // Opções do mapa
+                    var mapOptions = {
+                        zoom: 12, // Nível de zoom do mapa
+                        center: myLatLng // Centro do mapa
+                    };
+        
+                    // Cria o mapa e o exibe dentro do elemento com o id 'map'
+                    var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+        
+                    // Adiciona um marcador no mapa
+                    var marker = new google.maps.Marker({
+                        position: myLatLng,
+                        map: map,
+                        title: 'São Paulo' // Título do marcador (opcional)
+                    });
+                }
+            </script>
+        
+            <!-- Chama a função initMap() para inicializar o mapa -->
+            <script>
+                initMap();
+            </script>
+
         </div>
 
     </main>
