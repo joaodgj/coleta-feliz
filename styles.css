@@ -34,8 +34,7 @@ a
 
 .logo
 {
-  padding-right: 800px;
-  float: left;
+  padding-right: 400px;
   margin: 2px;
   height: auto;
 }
@@ -74,12 +73,14 @@ main
   background-color: rgb(61, 255, 77);
   color: rgb(0, 0, 0);
 }
+
 .lixos
 {
   padding-top: 30px;
   padding-bottom: 50px;
-display: block;
+  display: block;
 }
+
 .Nlixo
 {
   word-spacing: 150px;
