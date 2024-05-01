@@ -1,36 +1,64 @@
-body, ul {
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+* {
   margin: 0;
   padding: 0;
 }
-
-body, nav {
-  background-color: #008000;
+body{
+  background-image:url(img/background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-nav ul li {
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #82DD69;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.li {
   display: inline;
   margin-right: 10px;
 }
 
-nav ul li a {
-  color: white;
+a {
   text-decoration: none;
+  color: white;
 }
 
-body {
-   font-family: 'Roboto', sans-serif;
-}
-
-.image-container {
-  text-align: center;
-  padding: 20px;
-}
-
-.image-container img {
-  max-width: 100%;
+.logo{
+  margin: 2px;
   height: auto;
 }
 
-.image-container h1 {
-  color: #008000;
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 5%;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.texto-principal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.mapa{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 225px;
+  background-color: green;
+  color: white;
+}
+
+footer{
+  background-color: #82DD69;
 }
