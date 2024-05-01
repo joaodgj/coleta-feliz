@@ -76,6 +76,8 @@ main
 
 .lixos
 {
+  word-spacing: 50px;
+  text-align: center;
   padding-top: 30px;
   padding-bottom: 50px;
   display: block;
@@ -83,10 +85,8 @@ main
 
 .Nlixo
 {
-  word-spacing: 150px;
-  padding-top: 30px;
-  padding-left: 110px;
-  text-align: center;
+  word-spacing: 310px;
+  padding-top: 50px;
   display: inline;
   justify-content: center;  
 }
