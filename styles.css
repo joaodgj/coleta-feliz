@@ -34,7 +34,7 @@ a
 
 .logo
 {
-  padding-right: 850px;
+  padding-right: 800px;
   float: left;
   margin: 2px;
   height: auto;
@@ -87,8 +87,7 @@ display: block;
   padding-left: 110px;
   text-align: center;
   display: inline;
-  justify-content: center;
-  
+  justify-content: center;  
 }
 
 footer{
@@ -102,7 +101,6 @@ footer{
   -webkit-text-stroke: 4px;
   -webkit-text-stroke-color:#297a12;
 }
-
 
 footer{
   background-color:#297a12;
