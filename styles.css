@@ -68,8 +68,7 @@
     height: 600px;
     width: 60%;
 }
-#card{
-  height: 30px;
-  width: 30px;
+.card-text{
+  color: black;
 
 }
