@@ -1,4 +1,4 @@
-/* Remove border from toggler */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 .navbar-toggler {
   border: 0 !important;
 }
@@ -71,4 +71,29 @@
 .card-text{
   color: black;
 
+}
+header{
+  font-weight: lighter;
+}
+.main-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: bold;
+  margin: 3%;
+}
+.texto-principal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+*{
+  font-family: "Archivo Black", sans-serif;
+}
+.paragrafo{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
