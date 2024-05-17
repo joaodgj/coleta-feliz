@@ -97,3 +97,16 @@ header{
   flex-direction: column;
   text-align: center;
 }
+h1 {
+  font-size: 5vw; /* 5% da largura da viewport */
+  text-align: center;
+  margin: 20px;
+}
+h2{
+  font-size: 2vw;
+  text-align: center;
+  margin: 30px;
+}
+h4{
+  text-align: center;
+}
