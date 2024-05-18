@@ -130,7 +130,7 @@ h6{
 
 .search-box button {
   padding: 10px 20px;
-  background-color: #e74c3c;
+  background-color:#499E39;
   color: white;
   border: none;
   border-radius: 5px;
@@ -139,13 +139,13 @@ h6{
 }
 
 .search-box button:hover {
-  background-color: #c0392b;
+  background-color: #277E1C;
 }
 
 #routeButton {
   display: none;
   padding: 10px 20px;
-  background-color: #e74c3c;
+  background-color: #499E39;
   color: white;
   border: none;
   border-radius: 5px;
@@ -155,7 +155,7 @@ h6{
 }
 
 #routeButton:hover {
-  background-color: #c0392b;
+  background-color: #277E1C;
 }
 
 
