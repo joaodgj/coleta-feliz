@@ -79,7 +79,6 @@ header{
   justify-content: center;
   flex-direction: column;
   font-weight: bold;
-  margin: 3%;
 }
 .texto-principal{
   display: flex;
@@ -102,12 +101,13 @@ h1 {
   margin: 10px;
 }
 h3{
-  font-size: 3vw;
+  font-size: 2vw;
   text-align: center;
   margin: 10px;
 }
 h6{
   text-align: center;
+  margin: 10px;
 }
 
 .search-box {
