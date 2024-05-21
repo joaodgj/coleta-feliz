@@ -124,8 +124,9 @@ h6{
 
 .search-box input[type="text"] {
   padding: 10px;
-  width: 100%; /* Utiliza toda a largura da caixa de pesquisa */
+  width: 100%; 
   margin-bottom: 10px;
+  color: black;
 }
 
 .search-box button {
