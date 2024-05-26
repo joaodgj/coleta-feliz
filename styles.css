@@ -262,3 +262,8 @@ a{
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 2000px;
 }
+.row{
+  display:flex;
+  width: 90%;
+  margin-left: 5%;
+}
