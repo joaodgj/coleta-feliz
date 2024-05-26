@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 .navbar-toggler {
-  border: 0 !important;
+  border: 0 ;
 }
 
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-  outline: none !important;
-  box-shadow: none !important;
-  border: 0 !important;
+  outline: none ;
+  box-shadow: none ;
+  border: 0 ;
 }
 
 /* Lines of the Toggler */
@@ -178,4 +178,89 @@ h6{
 
 a{
   margin: 5px;
+}
+
+.container{
+  position: relative;
+  width: 80%;
+  height: 80%; /* Ajusta a altura do contêiner para 100% da altura da viewport */
+}
+
+.center-img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centraliza horizontal e verticalmente */
+  max-width: 100%; /* Opcional: Garante que a imagem não exceda o tamanho do contêiner */
+  border-radius: 15%;
+}
+
+.circle {
+  width: 200px; /* Define a largura do círculo */
+  height: 200px; /* Define a altura do círculo */
+  border-radius: 50%; /* Faz com que o contêiner fique circular */
+  overflow: hidden; /* Garante que a imagem não saia dos limites do círculo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle img {
+  width: 100%; /* Ajusta a largura da imagem para ocupar todo o contêiner */
+  height: 100%; /* Ajusta a altura da imagem para ocupar todo o contêiner */
+  object-fit: cover; /* Garante que a imagem cubra todo o contêiner sem distorção */
+}
+
+.card-title{
+  color: black;
+  
+}
+.card-text{
+  color: rgb(63, 63, 63);
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.nome{
+  position: absolute;
+  left: 20%;
+  top: 102%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nome2{
+  position: absolute;
+  left: 20%;
+  top: 132%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nome3{
+  position: absolute;
+  left: 20%;
+  top: 162%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nome4{
+  position: absolute;
+  left: 20%;
+  top: 192%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nome5{
+  position: absolute;
+  left: 20%;
+  top: 222%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nome6{
+  position: absolute;
+  left: 20%;
+  top: 252%;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 2000px;
 }
