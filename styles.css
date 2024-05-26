@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 .navbar-toggler {
-  border: 0 !important;
+  border: 0 ;
 }
 
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-  outline: none !important;
-  box-shadow: none !important;
-  border: 0 !important;
+  outline: none ;
+  box-shadow: none ;
+  border: 0 ;
 }
 
 /* Lines of the Toggler */
@@ -178,13 +178,4 @@ h6{
 a{
   margin: 5px;
 }
-
-.imgrupo{
-  width: 80%;
-  height: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
