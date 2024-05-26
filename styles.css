@@ -181,8 +181,8 @@ a{
 
 .container{
   position: relative;
-  width: 40%;
-  height: 40vh; /* Ajusta a altura do contêiner para 100% da altura da viewport */
+  width: 80%;
+  height: 80%; /* Ajusta a altura do contêiner para 100% da altura da viewport */
 }
 
 .center-img{
@@ -212,6 +212,7 @@ a{
 
 .card-title{
   color: black;
+  
 }
 .card-text{
   color: rgb(63, 63, 63);
