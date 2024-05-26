@@ -178,9 +178,6 @@ h6{
 a{
   margin: 5px;
 }
-<<<<<<< Updated upstream
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
-=======
 
 .container{
   position: relative;
@@ -212,6 +209,15 @@ a{
   height: 100%; /* Ajusta a altura da imagem para ocupar todo o contêiner */
   object-fit: cover; /* Garante que a imagem cubra todo o contêiner sem distorção */
 }
+
+.card-title{
+  color: black;
+}
+.card-text{
+  color: gray;
+}
+
+
 
 .nome{
   position: absolute;
@@ -255,4 +261,3 @@ a{
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 2000px;
 }
->>>>>>> Stashed changes
